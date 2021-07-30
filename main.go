@@ -37,10 +37,10 @@ func (receiver *List) Add(node ListNode) {
 	receiver.length++
 }
 
-/*func (receiver *List) Remove(node ListNode)  {
+func (receiver *List) Remove(node ListNode)  {
 	receiver.length--
 
-}*/
+}
 
 type ListNode struct {
 	Prev      *ListNode
